@@ -15,12 +15,12 @@ cask "finfo" do
     on_intel do
       url "https://github.com/oh-tarnished/finfo/releases/download/v#{version}/finfo_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/oh-tarnished/finfo/"
-      sha256 "0009240cdf49d0933789b5df2c0414a1db871993a5ab6da071750d1ef783dd12"
+      sha256 "6bb56f9a8cf6f1c787f60278b2b0a61d0e6a77cd706020c86f122c480d44bbf9"
     end
     on_arm do
       url "https://github.com/oh-tarnished/finfo/releases/download/v#{version}/finfo_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/oh-tarnished/finfo/"
-      sha256 "5c97e43e27fc872bf94f6435a8d3e0d3d2fc02328d5bb96f3d3caa681a57b688"
+      sha256 "2a76be38ee86b629eaabafc3aab46d99977d4a8826a6520b4cd5bc16418017c8"
     end
   end
 
@@ -28,12 +28,12 @@ cask "finfo" do
     on_intel do
       url "https://github.com/oh-tarnished/finfo/releases/download/v#{version}/finfo_#{version}_linux_amd64.tar.gz",
         verified: "github.com/oh-tarnished/finfo/"
-      sha256 "531842f6429cf1f4a0054d236743cf414352ed801817e9ee6f56af1d3f04754c"
+      sha256 "489e98c6c2195214cbecc6af934630934f3f575f8a78cd61a705e9c6f6ac2615"
     end
     on_arm do
       url "https://github.com/oh-tarnished/finfo/releases/download/v#{version}/finfo_#{version}_linux_arm64.tar.gz",
         verified: "github.com/oh-tarnished/finfo/"
-      sha256 "0b2781c9e7d40a64735ba3a5b9dc3910f54555aa101d5dcb70d0a505cc14e477"
+      sha256 "fd8859029c3d6008413746803eae4bc69be137f08c987a0f2b78cb50e505451b"
     end
   end
 
