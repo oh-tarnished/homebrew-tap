@@ -1,5 +1,7 @@
 # Personal Homebrew Tap
 
+[![CI](https://github.com/oh-tarnished/homebrew-tap/actions/workflows/ci.yml/badge.svg)](https://github.com/oh-tarnished/homebrew-tap/actions/workflows/ci.yml)
+
 This repository is a personal Homebrew tap for distributing `finfo`.
 
 The list below is generated from `Casks/` and should be kept in sync by the bot.
