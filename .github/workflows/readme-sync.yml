@@ -2,15 +2,20 @@ name: README Sync
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'Casks/**/*.rb'
       - 'scripts/update_readme.rb'
-      - 'README.md'
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
+
+concurrency:
+  group: readme-sync-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   sync:
