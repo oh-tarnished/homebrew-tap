@@ -17,6 +17,7 @@ brew install --cask finfo
 
 <!-- BEGIN GENERATED CASK LIST -->
 - `finfo`
+- `protoc-gen-protorm`
 <!-- END GENERATED CASK LIST -->
 
 ## Updating
